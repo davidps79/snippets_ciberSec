@@ -6,8 +6,8 @@ class DESTest {
     public static void main(String[] args) {
         String test = "1";
         String key = "0101010101010101";
-        String[] expected = new String[]{"95F8A5E5DD31D900", "DD7F121CA5015619 ", "2E8653104F3834EA", "4BD388FF6CD81D4F"};
-        String[] messages = new String[]{"8000000000000000", "4000000000000000", "2000000000000000", "1000000000000000"};
+        String[] expected = new String[]{"20B9E767B2FB1456", "55579380D77138EF", "6CC5DEFAAF04512F", "0D9F279BA5D87260"};
+        String[] messages = new String[]{"0800000000000000", "0400000000000000", "0200000000000000", "0100000000000000"};
 
         for (int i=0; i<4; i++) {
             testVector(key, messages[i], expected[i]);
